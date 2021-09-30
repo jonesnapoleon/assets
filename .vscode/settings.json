@@ -1,0 +1,66 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.defaultFormatter": null,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true
+  },
+  "python.formatting.blackArgs": ["--line-length", "110"],
+  "python.formatting.provider": "autopep8",
+  "python.formatting.yapfArgs": [
+    "--style",
+    "{based_on_style: chromium, indent_width: 20}"
+  ],
+  "python.autoComplete.addBrackets": true,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "prettier.singleQuote": false,
+  "[javascriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "cornflakes.linter.executablePath": "/myvenv/bin/flake8",
+  "cornflakes.linter.run": "onType",
+  "python.linting.flake8Args": ["--ignore=E24,W504", "--verbose"],
+  "editor.formatOnSave": true,
+  "eslint.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "workbench.colorTheme": "One Dark Pro",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "liveshare.anonymousGuestApproval": "accept",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "java.imports.gradle.wrapper.checksums": [
+    {
+      "sha256": "f6867a823e3b8b0434e096dc3538cf238bfef261013d61bbc6740286b058f41f",
+      "allowed": true
+    }
+  ],
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.git": false,
+    "**/.project": true,
+    "**/.settings": true
+  },
+  "python.languageServer": "Pylance",
+  "python.analysis.completeFunctionParens": true,
+  "liveshare.authenticationProvider": "GitHub",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "remote.SSH.remotePlatform": {
+    "backend.asia-southeast2-c.legaltech-esign": "linux"
+  },
+  "remote.SSH.defaultExtensions": ["eslint", "prettier"],
+  "remote.SSH.showLoginTerminal": true
+}
